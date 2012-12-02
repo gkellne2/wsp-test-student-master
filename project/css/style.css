@@ -1,2 +1,48 @@
 /*-----Global Reset-------*/
 @import "normalize.css";
+
+body{
+	padding:02.7777778%; /*25px/900px*/
+	max-width:935px;
+	margin: 0 auto;
+	font:100%;/*16px*/
+}
+
+/*Navigation
+==========================================================================*/
+#navagation{
+	background:white;
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+	font:1em;
+	overflow:hidden;
+	-moz-box-shadow:5px 5px 5px #666;
+	-webkit-box-shadow:5px 5px 5px #666;
+	box-shadow:5px 5px 5px #666;
+}
+#navagation li{
+	width:10.330579%;/*100px*/
+	float:left;
+}
+#navagation a{
+	text-decoration:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+/*Active buttons
+=========================================================================*/
+a:link{
+	color: #336699;
+}
+a:visited{
+	color: #9999cc;
+}
+a:hover{
+	color: #cc33cc;
+}
+a:active{
+	color: #999;
+}
