@@ -12,7 +12,7 @@ body{
 ==========================================================================*/
 #navagation{
 	background:white;
-	margin:0 auto;
+	margin:0, auto;
 	padding:0;
 	list-style-type:none;
 	font:1em;
@@ -25,7 +25,7 @@ body{
 	width:10.330579%;/*100px*/
 	float:left;
 }
-#navagation a{
+#navagation li{
 	text-decoration:none;
 	display:block;
 	height:30px;
@@ -45,4 +45,27 @@ a:hover{
 }
 a:active{
 	color: #999;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }
