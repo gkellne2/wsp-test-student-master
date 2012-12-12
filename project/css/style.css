@@ -1,5 +1,7 @@
-/*-----Global Reset-------*/
+
 @import "normalize.css";
+
+
 /*======main body========*/
 
 
@@ -7,9 +9,6 @@ body{
 	max-width:960px;
 	margin-right:20px;
 	margin-left:20px;
-	/*#ccffcc;*/
-
-
 }
 
 	
@@ -68,7 +67,7 @@ ul#list-nav li a:hover{
 	background: linear-gradient(to bottom,  #d2ff52 0%,#91e842 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', 
 	endColorstr='#91e842',GradientType=0 ); /* IE6-9 */
-	color:#000;
+	/*color:#000;*/
 }
 
 #main{
@@ -93,6 +92,7 @@ p{
 }
 footer{
 	position:absolute;
+	}
 	
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -100,8 +100,6 @@ footer{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-ul#list-nav li a {
-width:100%;}
 
 }
 
@@ -110,6 +108,7 @@ width:100%;}
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+
 }
 
 
@@ -118,4 +117,5 @@ and (max-width : 320px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+
 }
