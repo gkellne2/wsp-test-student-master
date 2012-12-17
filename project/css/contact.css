@@ -1,3 +1,89 @@
+@import "normalize.css";
+
+
+/*======main body========*/
+
+
+body{
+	max-width:960px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+h1{
+	position:absolute;
+	left:580px;
+	top:37px;
+}
+
+/*=======Nav==========*/
+#navbar{
+	position:absolute;
+	left:15px;
+	top:160px;
+	width:938px;
+}
+
+ul#list-nav {
+	position:absolute;
+	left:15px;
+	top:143px;
+	list-style:none;
+	margin:20px;
+	padding:0;
+	width:960px
+}
+
+ul#list-nav li {
+  display:inline
+}
+
+ul#list-nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:125px;
+  background:#99cc99;
+  color:ffffff;
+  float:left;
+  text-align:center;
+  border-left:1px solid #000;
+}
+
+ul#list-nav li a:hover {
+  background:#ccffcc;
+  color:#000
+}
+h3{
+	position:absolute;
+	left:400px;
+	top:225px;
+	font-size:25px;
+}	
+form{
+	position:absolute;
+	left:25px;
+	top:300px;
+	width:938px;
+}	
+	
+#backcolor{
+	position:absolute;
+	left:15px;
+	top:189px;
+	width:938px;
+}	
+button{
+	position:absolute;
+	left:400px;
+}
+#footer{
+	position:absolute;
+	left:15px;
+	top:888px;
+	width:960px;
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
